@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Infrastructure</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+		<body>
+			<section>
+					<header class="container">
+						<div class="stl">
+							<ul>
+								<li><a href="">Home</a></li>
+								<li><a href="">Industry</a></li>
+								<li><a href="">Innovation</a></li>
+							</ul>
+						</div>
+					</header>
+
+						<div class="main">
+							<div class="stl">
+								<h1>Resilient Systems & Connectivity</h1>
+							</div>
+						</div>
+
+						<div>
+							<div class="container2">
+								<div class="stl stl-row">
+									<div class="sut">
+										<h2>Sustainable and resilient infrastructure</h2>
+										<p>Modern physical and digital infrastructure is designed to withstand and recover from disruptions while advancing long-term goals. Planning, maintenance and upgrades must integrate resilience, supported by financing to adapt assets to economic and social conditions.</p>
+									</div>
+								</div>
+								<div class="sut2">
+									<img src="ecocity.png" alt="Eco city">
+								</div>
+							</div>
+						</div>
+			</section>
+
+			<section>
+				<div class="mnp">
+					<div class="sut2">
+						<img src="DigitalCon.png" width="400" alt="Connectivity">
+					</div>
+
+					<div class="stl stl-row sut">
+						<h2>Physical & Digital Integration (Intelligent Infrastructure)</h2>
+						<p>Just as roads, railways, and ports enabled the movement of goods during the industrial era, modern development increasingly relies on intelligent infrastructure a digital backbone that complements and upgrades traditional physical assets. Rather than keeping physical structures and digital networks separate, intelligent infrastructure embeds sensors, high-speed connectivity, data platforms, and AI-driven analytics directly into transport corridors, power grids, and water systems. By monitoring conditions and adapting in real time, these assets shift from passive conduits to active, cognitive ecosystems that optimize performance and reduce operational costs. A clear way to understand this integration is through the distinction between digital connectivity and intelligent action. Traditional digital infrastructure functions like a nervous system, transmitting signals and connecting people, factories, and public services. Intelligent infrastructure acts as the brain and reflex pathways: it interprets data flows, anticipates disruptions, and coordinates immediate responses across connected networks. When supported by shared standards and interoperability, this integrated architecture links smart cities, logistics hubs, and energy grids into a unified system capable of delivering reliable, inclusive services across both urban centers and underserved rural communities.</p>
+					</div>
+
+				</div>
+			</section>
+
+			<section>
+				<div class="mnp">
+					<div class="stl stl-row sut">
+						<h2>Disaster Resistance & Rapid Recovery</h2>
+						<p>As cities expand and extreme weather or seismic hazards intensify, the built environment from homes and schools to transport and energy networks must be engineered to withstand shocks rather than collapse under pressure. With building failures accounting for up to 80% of earthquake casualties and natural hazards causing over $220 billion in global losses each year, enforcing science based building codes, hazard informed urban planning, and structural retrofitting is essential to protect lives and critical public services. True resilience also depends on shifting from reactive crisis management to proactive preparedness and rapid recovery. Expanding early warning systems, pre-arranged emergency financing, and rapid post-disaster damage assessments enables governments and communities to anticipate threats, minimize service disruptions, and restore vital infrastructure quickly after an event preventing long-term economic setbacks and safeguarding vulnerable populations.</p>
+					</div>
+
+					<div class="sut2">
+						<img src="disaster.png" alt="disaster">
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="mnp stl stl-row sut">
+					<h2>Proactive Planning, Maintenance & Upgrades</h2>
+					<p></p>
+			</section>
+
+			<section>
+				<div class="mnp stl stl-row sut">
+					<h2>Strategic Financing & Inclusive Adaptation</h2>
+					<p></p>
+			</section>
+</body>
+</html>
+
+
+  CSS
+              
+    *{
+	box-sizing: border-box;
+}
+
+.container:hover{
+	background-color: white ;
+}
+
+.container ul{
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container li{
+	padding: 10px 20px;
+	border-radius: 40px;
+	transition: 0.3s;
+}
+
+.container:hover a {
+	color: black;
+}
+
+.container a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+
+.container2 {
+	display: flex;
+	gap: 0;
+	padding: 6px 20px 24px 20px;
+	background: #16115E;
+	text-align: left;
+	color: white;
+	font-family: Arial, sans-serif;
+	margin-top: 0;
+}
+
+.sut {
+	max-width: 720px;
+	padding: 0;
+}
+
+.sut2 {
+	display: flex;
+	justify-content: center;
+}
+
+.sut2 img{
+	display: block;
+	width: 500px;
+	max-width: 100%;
+	height: auto;
+	padding-right: 50px;
+}
+
+.sut h2{
+	margin-top: 0px;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	font-family: Arial, sans-serif;
+	background-color: #16115E;
+	color: white;
+	height: auto;
+	padding: 20px;
+	transition: 0.5s;
+}
+
+.main{
+	font-family: Arial, sans-serif;
+	background-color: #16115E;
+	color: white;
+	height: auto;
+	padding: 20px 20px 6px 20px;
+}
+
+.main h1{
+	margin-bottom: 0px;
+}
+
+.stl{
+	max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.stl-row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	gap: 20px;
+}
+
+.mnp {
+	display: flex;
+	gap: 0;
+	padding: 6px 20px 24px 20px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	margin-top: 0;
+}
+
+.stl-row2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	gap: 20px;
+}
